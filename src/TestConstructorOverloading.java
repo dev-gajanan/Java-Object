@@ -4,16 +4,16 @@ class Employee {
 	String deptName;
 	
 	//creating two arg constructor
-	Employee(int id, String name){
-		empId = id;
-		empName = name;
+	Employee(int empId, String empName){
+		this.empId = empId;
+		this.empName = empName;
 	}
 	
 	//creating three arg constructor
-	Employee(int id, String name, String dept){
-		empId = id;
-		empName = name;
-		deptName = dept;
+	Employee(int empId, String empName, String deptName){
+		this.empId = empId;
+		this.empName = empName;
+		this.deptName = deptName;
 	}
 	
 	//display info
